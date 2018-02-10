@@ -1,7 +1,7 @@
 /*! Spectre.css Experimentals v0.5.0 | MIT License | github.com/picturepan2/spectre */
 .calendar {
   border: .05rem solid #e7e9ed;
-  border-radius: .1rem;
+  border-radius: .2rem;
   display: block;
   min-width: 280px;
   text-align: center;
@@ -10,13 +10,13 @@
 .calendar .calendar-nav {
   align-items: center;
   background: #f8f9fa;
-  border-top-left-radius: .1rem;
-  border-top-right-radius: .1rem;
+  border-top-left-radius: .2rem;
+  border-top-right-radius: .2rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-align: center;
   font-size: .9rem;
-  padding: .4rem;
+  padding: .8rem;
 }
 
 .calendar .calendar-header,
@@ -27,7 +27,7 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
-  padding: .4rem 0;
+  padding: .8rem 0;
 }
 
 .calendar .calendar-header .calendar-date,
@@ -77,26 +77,26 @@
 }
 
 .calendar .calendar-date .date-item.date-today {
-  border-color: #e5e5f9;
-  color: #5755d9;
+  border-color: #c8e5fc;
+  color: #2196f3;
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(33, 150, 243, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
-  background: #fefeff;
-  border-color: #e5e5f9;
-  color: #5755d9;
+  background: #e5f3fe;
+  border-color: #c8e5fc;
+  color: #2196f3;
   text-decoration: none;
 }
 
 .calendar .calendar-date .date-item:active,
 .calendar .calendar-date .date-item.active {
-  background: #4b48d6;
-  border-color: #3634d2;
+  background: #128ff2;
+  border-color: #0c82df;
   color: #fff;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .calendar .calendar-range::before {
-  background: #f1f1fc;
+  background: #d6ecfd;
   content: "";
   height: 1.4rem;
   left: 0;
@@ -140,7 +140,7 @@
 }
 
 .calendar .calendar-range .date-item {
-  color: #5755d9;
+  color: #2196f3;
 }
 
 .calendar.calendar-lg .calendar-body {
@@ -196,7 +196,7 @@
 }
 
 .calendar.calendar-lg .calendar-event {
-  border-radius: .1rem;
+  border-radius: .2rem;
   display: block;
   font-size: .7rem;
   margin: .1rem auto;
@@ -282,7 +282,7 @@
 }
 
 .carousel .carousel-nav {
-  bottom: .4rem;
+  bottom: .8rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-pack: center;
@@ -462,7 +462,7 @@
 .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
-  background: #5755d9;
+  background: #2196f3;
   color: #fff;
 }
 
@@ -478,7 +478,7 @@
 }
 
 .filter .filter-nav {
-  margin: .4rem 0;
+  margin: .8rem 0;
 }
 
 .filter .filter-body {
@@ -494,7 +494,7 @@
   appearance: none;
   background: #f8f9fa;
   border: 0;
-  border-radius: .1rem;
+  border-radius: .2rem;
   display: block;
   height: .8rem; 
   width: 100%;
@@ -508,7 +508,7 @@
 .meter::-webkit-meter-optimum-value,
 .meter::-webkit-meter-suboptimum-value,
 .meter::-webkit-meter-even-less-good-value {
-  border-radius: .1rem;
+  border-radius: .2rem;
 }
 
 .meter::-webkit-meter-bar {
@@ -531,7 +531,7 @@
 .meter:-moz-meter-optimum,
 .meter:-moz-meter-sub-optimum,
 .meter:-moz-meter-sub-sub-optimum {
-  border-radius: .1rem;
+  border-radius: .2rem;
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
@@ -558,9 +558,9 @@
 
 .off-canvas .off-canvas-toggle {
   display: block;
-  left: .4rem;
+  left: .8rem;
   position: absolute;
-  top: .4rem;
+  top: .8rem;
   transition: none;
   z-index: 1;
 }
@@ -582,7 +582,7 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   height: 100%;
-  padding: .4rem .4rem .4rem 4rem;
+  padding: .8rem .8rem .8rem 4rem;
 }
 
 .off-canvas .off-canvas-overlay {
@@ -774,8 +774,8 @@
   appearance: none;
   background: #f0f1f4;
   border: 0;
-  border-radius: .1rem;
-  color: #5755d9;
+  border-radius: .2rem;
+  color: #2196f3;
   height: .2rem;
   position: relative;
   width: 100%;
@@ -783,22 +783,22 @@
 
 .progress::-webkit-progress-bar {
   background: transparent;
-  border-radius: .1rem;
+  border-radius: .2rem;
 }
 
 .progress::-webkit-progress-value {
-  background: #5755d9;
-  border-radius: .1rem;
+  background: #2196f3;
+  border-radius: .2rem;
 }
 
 .progress::-moz-progress-bar {
-  background: #5755d9;
-  border-radius: .1rem;
+  background: #2196f3;
+  border-radius: .2rem;
 }
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #f0f1f4 linear-gradient(to right, #5755d9 30%, #f0f1f4 30%) top left/150% 150% no-repeat;
+  background: #f0f1f4 linear-gradient(to right, #2196f3 30%, #f0f1f4 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -825,7 +825,7 @@
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(33, 150, 243, .2);
   outline: none;
 }
 
@@ -835,7 +835,7 @@
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: #5755d9;
+  background: #2196f3;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -845,7 +845,7 @@
 }
 
 .slider::-moz-range-thumb {
-  background: #5755d9;
+  background: #2196f3;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -854,7 +854,7 @@
 }
 
 .slider::-ms-thumb {
-  background: #5755d9;
+  background: #2196f3;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -894,27 +894,27 @@
 
 .slider::-webkit-slider-runnable-track {
   background: #f0f1f4;
-  border-radius: .1rem;
+  border-radius: .2rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
   background: #f0f1f4;
-  border-radius: .1rem;
+  border-radius: .2rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
   background: #f0f1f4;
-  border-radius: .1rem;
+  border-radius: .2rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-fill-lower {
-  background: #5755d9;
+  background: #2196f3;
 }
 
 .timeline .timeline-item {
@@ -955,7 +955,7 @@
 }
 
 .timeline .timeline-item .timeline-icon::before {
-  border: .1rem solid #5755d9;
+  border: .1rem solid #2196f3;
   border-radius: 50%;
   content: "";
   display: block;
@@ -967,7 +967,7 @@
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg {
-  background: #5755d9;
+  background: #2196f3;
   line-height: 1rem;
 }
 

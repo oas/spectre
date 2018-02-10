@@ -2,7 +2,7 @@
 $version: "0.5.0";
 
 // Core colors
-$primary-color: #5755d9 !default;
+$primary-color: #2196F3 !default;
 $primary-color-dark: darken($primary-color, 3%) !default;
 $primary-color-light: lighten($primary-color, 3%) !default;
 $secondary-color: lighten($primary-color, 37.5%) !default;
@@ -70,10 +70,10 @@ $font-size-lg: .9rem !default;
 $line-height: 1rem !default;
 
 // Sizes
-$layout-spacing: $unit-2 !default;
+$layout-spacing: $unit-4 !default;
 $layout-spacing-sm: $unit-1 !default;
 $layout-spacing-lg: $unit-4 !default;
-$border-radius: $unit-h !default;
+$border-radius: $unit-1 !default;
 $border-width: $unit-o !default;
 $border-width-lg: $unit-h !default;
 $control-size: $unit-9 !default;

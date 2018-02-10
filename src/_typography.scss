@@ -103,7 +103,7 @@ ol {
 }
 
 ul {
-  list-style: disc inside;
+  list-style-type: disc;
 
   ul {
     list-style-type: circle;
@@ -111,7 +111,7 @@ ul {
 }
 
 ol {
-  list-style: decimal inside;
+  list-style-type: decimal;
 
   ol {
     list-style-type: lower-alpha;
