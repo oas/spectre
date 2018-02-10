@@ -365,7 +365,7 @@ h6,
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 .4rem;
 }
 
 a,
@@ -383,7 +383,7 @@ abbr[title] {
 
 kbd {
   background: #454d5d;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #fff;
   font-size: .7rem; 
   line-height: 1.2;
@@ -392,7 +392,7 @@ kbd {
 
 mark {
   background: #ffe9b3;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #50596c;
   padding: .05rem;
 }
@@ -541,7 +541,7 @@ dl dd {
   appearance: none;
   background: #fff;
   border: .05rem solid #2196f3;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #2196f3;
   cursor: pointer;
   display: inline-block;
@@ -817,7 +817,7 @@ legend {
   background: #fff;
   background-image: none;
   border: .05rem solid #caced7;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #50596c;
   display: block;
   font-size: .8rem;
@@ -899,7 +899,7 @@ textarea.form-input {
   -moz-appearance: none;
   appearance: none;
   border: .05rem solid #caced7;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: inherit;
   font-size: .8rem;
   height: 1.8rem;
@@ -1052,7 +1052,7 @@ textarea.form-input {
 }
 
 .form-checkbox .form-icon {
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .form-checkbox input:checked + .form-icon::before {
@@ -1147,7 +1147,7 @@ textarea.form-input {
 .input-group .input-group-addon {
   background: #f8f9fa;
   border: .05rem solid #caced7;
-  border-radius: .2rem;
+  border-radius: .1rem;
   line-height: 1rem;
   padding: .35rem .4rem;
   white-space: nowrap;
@@ -1319,7 +1319,7 @@ input.disabled + .form-icon {
 
 .label {
   background: #f0f1f4;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #5b657a;
   display: inline-block; 
   line-height: 1.2;
@@ -1359,7 +1359,7 @@ input.disabled + .form-icon {
 
 code {
   background: #fdf4f4;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #e06870;
   font-size: 85%; 
   line-height: 1.2;
@@ -1367,7 +1367,7 @@ code {
 }
 
 .code {
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #50596c;
   position: relative;
 }
@@ -2198,7 +2198,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .bar {
   background: #f0f1f4;
-  border-radius: .2rem;
+  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-wrap: nowrap;
@@ -2226,13 +2226,13 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar .bar-item:first-child {
-  border-bottom-left-radius: .2rem;
-  border-top-left-radius: .2rem;
+  border-bottom-left-radius: .1rem;
+  border-top-left-radius: .1rem;
 }
 
 .bar .bar-item:last-child {
-  border-bottom-right-radius: .2rem;
-  border-top-right-radius: .2rem;
+  border-bottom-right-radius: .1rem;
+  border-top-right-radius: .1rem;
   -ms-flex-negative: 1;
   flex-shrink: 1;
 }
@@ -2274,7 +2274,7 @@ summary.accordion-header::-webkit-details-marker {
 .card {
   background: #fff;
   border: .05rem solid #e7e9ed;
-  border-radius: .2rem;
+  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -2303,13 +2303,13 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .card .card-image:first-child img {
-  border-top-left-radius: .2rem;
-  border-top-right-radius: .2rem;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
 }
 
 .card .card-image:last-child img {
-  border-bottom-left-radius: .2rem;
-  border-bottom-right-radius: .2rem;
+  border-bottom-left-radius: .1rem;
+  border-bottom-right-radius: .1rem;
 }
 
 .chip {
@@ -2367,13 +2367,13 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .dropdown .btn-group .dropdown-toggle:nth-last-child(2) {
-  border-bottom-right-radius: .2rem;
-  border-top-right-radius: .2rem;
+  border-bottom-right-radius: .1rem;
+  border-top-right-radius: .1rem;
 }
 
 .empty {
   background: #f8f9fa;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #667189;
   padding: 3.2rem 1.6rem; 
   text-align: center;
@@ -2394,7 +2394,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .menu {
   background: #fff;
-  border-radius: .2rem;
+  border-radius: .1rem;
   box-shadow: 0 .05rem .2rem rgba(69, 77, 93, .3);
   list-style: none;
   margin: 0;
@@ -2420,7 +2420,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .menu .menu-item > a {
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: inherit;
   display: block;
   margin: 0 -.4rem;
@@ -2513,7 +2513,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .modal-container {
   background: #fff;
-  border-radius: .2rem;
+  border-radius: .1rem;
   box-shadow: 0 .2rem .5rem rgba(69, 77, 93, .3);
   display: block;
   padding: 0 .8rem;
@@ -2589,7 +2589,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .pagination .page-item a {
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #667189;
   display: inline-block;
   padding: .2rem .4rem;
@@ -2633,7 +2633,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .panel {
   border: .05rem solid #e7e9ed;
-  border-radius: .2rem;
+  border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-direction: column;
@@ -2907,7 +2907,7 @@ summary.accordion-header::-webkit-details-marker {
   background: rgba(69, 77, 93, .9);
   border: .05rem solid #454d5d;
   border-color: #454d5d;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #fff;
   display: block;
   padding: .8rem;
@@ -2956,7 +2956,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .tooltip::after {
   background: rgba(69, 77, 93, .9);
-  border-radius: .2rem;
+  border-radius: .1rem;
   bottom: 100%;
   color: #fff;
   content: attr(data-tooltip);

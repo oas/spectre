@@ -1,7 +1,7 @@
 /*! Spectre.css Experimentals v0.5.0 | MIT License | github.com/picturepan2/spectre */
 .calendar {
   border: .05rem solid #e7e9ed;
-  border-radius: .2rem;
+  border-radius: .1rem;
   display: block;
   min-width: 280px;
   text-align: center;
@@ -10,8 +10,8 @@
 .calendar .calendar-nav {
   align-items: center;
   background: #f8f9fa;
-  border-top-left-radius: .2rem;
-  border-top-right-radius: .2rem;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-align: center;
@@ -196,7 +196,7 @@
 }
 
 .calendar.calendar-lg .calendar-event {
-  border-radius: .2rem;
+  border-radius: .1rem;
   display: block;
   font-size: .7rem;
   margin: .1rem auto;
@@ -494,7 +494,7 @@
   appearance: none;
   background: #f8f9fa;
   border: 0;
-  border-radius: .2rem;
+  border-radius: .1rem;
   display: block;
   height: .8rem; 
   width: 100%;
@@ -508,7 +508,7 @@
 .meter::-webkit-meter-optimum-value,
 .meter::-webkit-meter-suboptimum-value,
 .meter::-webkit-meter-even-less-good-value {
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .meter::-webkit-meter-bar {
@@ -531,7 +531,7 @@
 .meter:-moz-meter-optimum,
 .meter:-moz-meter-sub-optimum,
 .meter:-moz-meter-sub-sub-optimum {
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .meter:-moz-meter-optimum::-moz-meter-bar {
@@ -774,7 +774,7 @@
   appearance: none;
   background: #f0f1f4;
   border: 0;
-  border-radius: .2rem;
+  border-radius: .1rem;
   color: #2196f3;
   height: .2rem;
   position: relative;
@@ -783,17 +783,17 @@
 
 .progress::-webkit-progress-bar {
   background: transparent;
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .progress::-webkit-progress-value {
   background: #2196f3;
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .progress::-moz-progress-bar {
   background: #2196f3;
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .progress:indeterminate {
@@ -894,21 +894,21 @@
 
 .slider::-webkit-slider-runnable-track {
   background: #f0f1f4;
-  border-radius: .2rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-moz-range-track {
   background: #f0f1f4;
-  border-radius: .2rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }
 
 .slider::-ms-track {
   background: #f0f1f4;
-  border-radius: .2rem;
+  border-radius: .1rem;
   height: .1rem;
   width: 100%;
 }

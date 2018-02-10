@@ -323,8 +323,8 @@
 
 .icon-delete::before {
   border: .1rem solid currentColor;
-  border-bottom-left-radius: .2rem;
-  border-bottom-right-radius: .2rem;
+  border-bottom-left-radius: .1rem;
+  border-bottom-right-radius: .1rem;
   border-top: 0;
   content: "";
   height: .75em;
@@ -343,7 +343,7 @@
 
 .icon-share {
   border: .1rem solid currentColor;
-  border-radius: .2rem;
+  border-radius: .1rem;
   border-right: 0;
   border-top: 0;
 }
@@ -380,9 +380,9 @@
 
 .icon-flag::after {
   border: .1rem solid currentColor;
-  border-bottom-right-radius: .2rem;
+  border-bottom-right-radius: .1rem;
   border-left: 0;
-  border-top-right-radius: .2rem;
+  border-top-right-radius: .1rem;
   content: "";
   height: .65em;
   left: 60%;
@@ -393,8 +393,8 @@
 .icon-bookmark::before {
   border: .1rem solid currentColor;
   border-bottom: 0;
-  border-top-left-radius: .2rem;
-  border-top-right-radius: .2rem;
+  border-top-left-radius: .1rem;
+  border-top-right-radius: .1rem;
   content: "";
   height: .9em;
   width: .8em;
@@ -404,7 +404,7 @@
   border: .1rem solid currentColor;
   border-bottom: 0;
   border-left: 0;
-  border-radius: .2rem;
+  border-radius: .1rem;
   content: "";
   height: .5em;
   transform: translate(-50%, 35%) rotate(-45deg) skew(15deg, 15deg);
@@ -468,7 +468,7 @@
 
 .icon-mail::before {
   border: .1rem solid currentColor;
-  border-radius: .2rem;
+  border-radius: .1rem;
   content: "";
   height: .8em;
   width: 1em;
@@ -505,13 +505,13 @@
 .icon-message {
   border: .1rem solid currentColor;
   border-bottom: 0;
-  border-radius: .2rem;
+  border-radius: .1rem;
   border-right: 0;
 }
 
 .icon-message::before {
   border: .1rem solid currentColor;
-  border-bottom-right-radius: .2rem;
+  border-bottom-right-radius: .1rem;
   border-left: 0;
   border-top: 0;
   content: "";
@@ -523,7 +523,7 @@
 
 .icon-message::after {
   background: currentColor;
-  border-radius: .2rem;
+  border-radius: .1rem;
   content: "";
   height: .3em;
   left: 10%;
@@ -534,7 +534,7 @@
 
 .icon-photo {
   border: .1rem solid currentColor;
-  border-radius: .2rem;
+  border-radius: .1rem;
 }
 
 .icon-photo::before {
