@@ -16,8 +16,8 @@
 }
 
 .form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: #5755d9; 
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  border-color: #2196f3; 
+  box-shadow: 0 0 0 .1rem rgba(33, 150, 243, .2);
 }
 
 .form-autocomplete .form-autocomplete-input .form-input {
@@ -66,7 +66,7 @@
   display: -ms-flexbox;
   -ms-flex-align: center;
   font-size: .9rem;
-  padding: .4rem;
+  padding: .8rem;
 }
 
 .calendar .calendar-header,
@@ -77,7 +77,7 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
-  padding: .4rem 0;
+  padding: .8rem 0;
 }
 
 .calendar .calendar-header .calendar-date,
@@ -128,26 +128,26 @@
 }
 
 .calendar .calendar-date .date-item.date-today {
-  border-color: #e5e5f9;
-  color: #5755d9;
+  border-color: #c8e5fc;
+  color: #2196f3;
 }
 
 .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(33, 150, 243, .2);
 }
 
 .calendar .calendar-date .date-item:focus,
 .calendar .calendar-date .date-item:hover {
-  background: #fefeff;
-  border-color: #e5e5f9;
-  color: #5755d9;
+  background: #e5f3fe;
+  border-color: #c8e5fc;
+  color: #2196f3;
   text-decoration: none;
 }
 
 .calendar .calendar-date .date-item:active,
 .calendar .calendar-date .date-item.active {
-  background: #4b48d6;
-  border-color: #3634d2;
+  background: #128ff2;
+  border-color: #0c82df;
   color: #fff;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .calendar .calendar-range::before {
-  background: #f1f1fc;
+  background: #d6ecfd;
   content: "";
   height: 1.4rem;
   left: 0;
@@ -191,7 +191,7 @@
 }
 
 .calendar .calendar-range .date-item {
-  color: #5755d9;
+  color: #2196f3;
 }
 
 .calendar.calendar-lg .calendar-body {
@@ -333,7 +333,7 @@
 }
 
 .carousel .carousel-nav {
-  bottom: .4rem;
+  bottom: .8rem;
   display: flex;
   display: -ms-flexbox;
   -ms-flex-pack: center;
@@ -513,7 +513,7 @@
 .filter .filter-tag#tag-6:checked ~ .filter-nav .chip[for="tag-6"],
 .filter .filter-tag#tag-7:checked ~ .filter-nav .chip[for="tag-7"],
 .filter .filter-tag#tag-8:checked ~ .filter-nav .chip[for="tag-8"] {
-  background: #5755d9;
+  background: #2196f3;
   color: #fff;
 }
 
@@ -529,7 +529,7 @@
 }
 
 .filter .filter-nav {
-  margin: .4rem 0;
+  margin: .8rem 0;
 }
 
 .filter .filter-body {
@@ -609,9 +609,9 @@
 
 .off-canvas .off-canvas-toggle {
   display: block;
-  left: .4rem; 
+  left: .8rem; 
   position: absolute;
-  top: .4rem;
+  top: .8rem;
   transition: none;
   z-index: 1;
 }
@@ -633,7 +633,7 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   height: 100%;
-  padding: .4rem .4rem .4rem 4rem;
+  padding: .8rem .8rem .8rem 4rem;
 }
 
 .off-canvas .off-canvas-overlay {
@@ -826,7 +826,7 @@
   background: #f0f1f4;
   border: 0;
   border-radius: .1rem;
-  color: #5755d9;
+  color: #2196f3;
   height: .2rem;
   position: relative;
   width: 100%;
@@ -838,18 +838,18 @@
 }
 
 .progress::-webkit-progress-value {
-  background: #5755d9;
+  background: #2196f3;
   border-radius: .1rem;
 }
 
 .progress::-moz-progress-bar {
-  background: #5755d9;
+  background: #2196f3;
   border-radius: .1rem;
 }
 
 .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #f0f1f4 linear-gradient(to right, #5755d9 30%, #f0f1f4 30%) top left/150% 150% no-repeat;
+  background: #f0f1f4 linear-gradient(to right, #2196f3 30%, #f0f1f4 30%) top left/150% 150% no-repeat;
 }
 
 .progress:indeterminate::-moz-progress-bar {
@@ -876,7 +876,7 @@
 }
 
 .slider:focus {
-  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+  box-shadow: 0 0 0 .1rem rgba(33, 150, 243, .2);
   outline: none;
 }
 
@@ -886,7 +886,7 @@
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: #5755d9;
+  background: #2196f3;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -896,7 +896,7 @@
 }
 
 .slider::-moz-range-thumb {
-  background: #5755d9;
+  background: #2196f3;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -905,7 +905,7 @@
 }
 
 .slider::-ms-thumb {
-  background: #5755d9;
+  background: #2196f3;
   border: 0;
   border-radius: 50%;
   height: .6rem;
@@ -965,7 +965,7 @@
 }
 
 .slider::-ms-fill-lower {
-  background: #5755d9;
+  background: #2196f3;
 }
 
 .timeline .timeline-item {
@@ -1006,7 +1006,7 @@
 }
 
 .timeline .timeline-item .timeline-icon::before {
-  border: .1rem solid #5755d9;
+  border: .1rem solid #2196f3;
   border-radius: 50%;
   content: "";
   display: block;
@@ -1018,7 +1018,7 @@
 }
 
 .timeline .timeline-item .timeline-icon.icon-lg {
-  background: #5755d9;
+  background: #2196f3;
   line-height: 1rem;
 }
 
