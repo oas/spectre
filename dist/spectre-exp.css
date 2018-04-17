@@ -661,7 +661,7 @@
   z-index: 100;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1080px) {
   .off-canvas.off-canvas-sidebar-show .off-canvas-toggle {
     display: none;
   }
