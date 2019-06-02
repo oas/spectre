@@ -7,3 +7,8 @@
 @mixin shadow-variant($offset) {
   box-shadow: 0 $offset ($offset + .05rem) * 2 rgba($dark-color, .3);
 }
+
+@mixin material-shadow {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.08);
+  border: $border-width solid $gray-color-light;
+}

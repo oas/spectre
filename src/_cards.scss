@@ -1,7 +1,8 @@
 // Cards
 .card {
+  @include material-shadow;
+
   background: $bg-color-light;
-  border: $border-width solid $border-color;
   border-radius: $border-radius;
   display: flex;
   flex-direction: column;
